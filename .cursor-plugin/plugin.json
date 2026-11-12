@@ -2,12 +2,27 @@
   "name": "clickstack-cursor-plugin",
   "displayName": "ClickStack",
   "version": "1.0.0",
-  "description": "ClickStack Cursor plugin: MCP access to your ClickStack logs, traces, metrics, dashboards and alerts.",
+  "description": "Investigate logs, metrics, and traces in Managed ClickStack, and build dashboards, alerts, and saved searches.",
   "author": {
     "name": "ClickHouse",
-    "email": "ai@clickhouse.com"
+    "email": "ai@clickhouse.com",
+    "url": "https://clickhouse.com"
   },
-  "keywords": ["observability", "clickstack", "clickhouse", "mcp", "logs", "traces", "metrics", "opentelemetry"],
+  "homepage": "https://clickhouse.com/docs/clickstack/mcp",
+  "repository": "https://github.com/ClickHouse/clickstack-cursor-plugin",
   "license": "Apache-2.0",
-  "logo": "assets/logo.svg"
+  "logo": "assets/logo.png",
+  "keywords": [
+    "clickstack",
+    "clickhouse",
+    "observability",
+    "logs",
+    "metrics",
+    "traces",
+    "opentelemetry",
+    "mcp"
+  ],
+  "category": "integrations",
+  "tags": ["clickstack", "observability", "mcp"],
+  "mcpServers": "./mcp.json"
 }
